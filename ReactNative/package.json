@@ -1,0 +1,14 @@
+{
+  "name": "react-lib",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Charles Luxton",
+  "license": "MIT",
+  "dependencies": {
+    "react-native": "0.8.0"
+  }
+}
