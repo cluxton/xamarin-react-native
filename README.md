@@ -19,3 +19,12 @@ chmod +x ./buildLibs.sh
 ```
 
 After you have done this, you can load the project in xamarin studio and deploy to a device or simulator.
+
+##TODO
+The sample application only works on a simulator. Physical devices run into this error:
+
+```
+
+[error][tid:com.facebook.React.JavaScript] 'Error: undefined is not an object (evaluating \'t("NativeModules").UIManager.RCTDatePicker.Constants\')\n
+
+```
