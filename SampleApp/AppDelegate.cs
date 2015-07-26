@@ -25,8 +25,10 @@ namespace SampleApp
 			// Window.RootViewController = myViewController;
 
 			var options = new NSDictionary ();
-			//var url = NSBundle.MainBundle.GetUrlForResource ("main", "jsbundle");
-			var url = NSUrl.FromString("http://localhost:8081/index.ios.bundle");
+
+			var url = NSBundle.MainBundle.GetUrlForResource ("main", "jsbundle");
+			//var url = NSUrl.FromString("http://192.168.0.11:8081/index.ios.bundle");
+
 			RCTRootView rct = new RCTRootView(url, new NSString("ReactNative"), options);
 			var vc = new UIViewController ();
 			vc.View = rct;
